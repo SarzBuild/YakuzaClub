@@ -24,11 +24,25 @@ public class Sc_PlayerStats : MonoBehaviour
         {
             _statsInstance = this;
         }
+
+        currentHealth = maxHealth;
     }
-    
+
+    //Quick keybinds to test player losing and gaining HP on the UI
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.T)) {
+            currentHealth--;
+        }
+        if (Input.GetKeyDown(KeyCode.R)) {
+            currentHealth++;
+        }
+    }
+
     //Player Stats
-    public float walkSpeed = 4f; 
-    public int maxHealth = 100;
+    public float walkSpeed = 4f;
+    public int currentHealth;
+    public int maxHealth = 8;
     
     //Inventory
     public int maxAmmoInMagazine = 10;
