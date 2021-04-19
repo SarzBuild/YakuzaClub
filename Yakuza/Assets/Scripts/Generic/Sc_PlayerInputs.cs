@@ -127,7 +127,7 @@ public class Sc_PlayerInputs : MonoBehaviour
     {
         if (!lockPlayer)
         {
-            if (Input.GetKey(KeyCode.R))
+            if (Input.GetKeyDown(KeyCode.R))
             {
                 return true;
             }

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class Sc_PlayerController : MonoBehaviour
@@ -10,11 +11,12 @@ public class Sc_PlayerController : MonoBehaviour
     private Sc_PlayerStats playerStats;
     private GameObject aimGunEndPoint;
     private GameObject bulletPrefab;
-    private bool needToReload;
+    public bool needToReload;
     private Vector3 rotationNeeded;
     private Vector3 targetPosition;
     private Vector3 aimDirection;
     [SerializeField] private LayerMask _layerMask;
+    private SpriteRenderer reloadButton;
 
     public event EventHandler<ShootingEventArgs> Shooting;
 
@@ -26,9 +28,12 @@ public class Sc_PlayerController : MonoBehaviour
     
     void Start()
     {
+        reloadButton = GameObject.FindGameObjectWithTag("UI").transform.Find("Reload_Button").GetComponent<SpriteRenderer>();
         inputManager = Sc_PlayerInputs.Instance;
         aimGunEndPoint = GameObject.Find("GunEndPointPosition");
         playerStats = Sc_PlayerStats.StatsInstance;
+
+        reloadButton.enabled = false;
     }
 
     
@@ -78,14 +83,9 @@ public class Sc_PlayerController : MonoBehaviour
     {
         if (inputManager.FireArmLeft())
         {
-            if (playerStats.maxAmmoInMagazine <= -110)
+            if (playerStats.currentAmmoInMagazine > 0)
             {
-                needToReload = true;
-            }
-            else
-            {
-                needToReload = false;
-                playerStats.maxAmmoInMagazine--;
+                playerStats.currentAmmoInMagazine--;
                 RaycastHit2D raycastHit2D = Physics2D.Raycast(aimGunEndPoint.transform.position, aimDirection , Vector3.Distance(aimGunEndPoint.transform.position, inputManager.GetMousePos()), _layerMask);
                 if (raycastHit2D.collider == null)
                 {
@@ -102,7 +102,14 @@ public class Sc_PlayerController : MonoBehaviour
                             gunPointPosition = aimGunEndPoint.transform.position,
                             shootPosition = targetPosition,
                         });
-                
+                if (playerStats.currentAmmoInMagazine == 0)
+                {
+                    needToReload = true;
+                }
+                else
+                {
+                    needToReload = false;
+                }
             }
         }
     }
@@ -111,11 +118,13 @@ public class Sc_PlayerController : MonoBehaviour
     {
         if (needToReload)
         {
+            reloadButton.enabled = true;
             if (inputManager.GetReloading())
             {
-                //Show R in Screen
-                //Reset Mag to 10
-                //Remove one total mag from inv
+                needToReload = false;
+                reloadButton.enabled = false;
+                playerStats.currentAmmoInMagazine = playerStats.maxAmmoInMagazine;
+                playerStats.currentMagazine--;
                 //Play Reloading sound
             }
         }

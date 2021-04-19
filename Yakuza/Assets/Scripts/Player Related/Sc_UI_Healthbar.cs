@@ -15,8 +15,12 @@ public class Sc_UI_Healthbar : MonoBehaviour
     private SpriteRenderer tick7;
     private SpriteRenderer tick8;
     public int hp;
+    private Text chargerText;
+    public int currentMagazineDisplay;
+    public float currentBulletCountToDisplay;
+    private Image bulletCount;
 
-    // Start is called before the first frame update
+
     //Get the UI elements for Health Ticks
     void Start()
     {
@@ -28,9 +32,11 @@ public class Sc_UI_Healthbar : MonoBehaviour
         tick6 = transform.Find("Healthbar_Tick6").GetComponent<SpriteRenderer>();
         tick7 = transform.Find("Healthbar_Tick7").GetComponent<SpriteRenderer>();
         tick8 = transform.Find("Healthbar_Tick8").GetComponent<SpriteRenderer>();
+        chargerText = transform.Find("ChargerText").GetComponent<Text>();
+        bulletCount = transform.Find("Gun").GetComponent<Image>();
     }
 
-    // Update is called once per frame
+
     //Update the UI elements for Health Ticks
     void Update()
     {
@@ -76,5 +82,11 @@ public class Sc_UI_Healthbar : MonoBehaviour
         } else {
             tick1.enabled = false;
         }
+
+        currentMagazineDisplay = player.GetComponent<Sc_PlayerStats>().currentMagazine;
+        chargerText.text = currentMagazineDisplay.ToString();
+
+        currentBulletCountToDisplay = player.GetComponent<Sc_PlayerStats>().currentAmmoInMagazine;
+        bulletCount.fillAmount = currentBulletCountToDisplay/ 10;
     }
 }

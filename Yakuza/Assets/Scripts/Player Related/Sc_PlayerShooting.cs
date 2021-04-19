@@ -13,7 +13,7 @@ public class Sc_PlayerShooting : MonoBehaviour
     private Vector2[] uv;
     private int[] triangles;
     private Mesh mesh;
-    private float timer = .1f;
+    //private float timer = .1f;
     private Sc_WorldMesh.World_Mesh worldMesh;
     
     void Start()

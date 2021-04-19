@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+
 public class Sc_PlayerStats : MonoBehaviour
 { 
     private static Sc_PlayerStats _statsInstance;
@@ -34,10 +35,11 @@ public class Sc_PlayerStats : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.T)) {
             currentHealth--;
         }
-        if (Input.GetKeyDown(KeyCode.R)) {
+        if (Input.GetKeyDown(KeyCode.Y)) {
             currentHealth++;
         }
     }
+
 
     //Player Stats
     public float walkSpeed = 4f;
@@ -46,7 +48,9 @@ public class Sc_PlayerStats : MonoBehaviour
     
     //Inventory
     public int maxAmmoInMagazine = 10;
-    public int maxMagazine = 3; 
+    public int currentAmmoInMagazine = 10;
+    public int maxMagazine = 3;
+    public int currentMagazine = 3;
     
     //Prefabs
     public GameObject bulletPrefab;
