@@ -17,6 +17,13 @@ public class Sc_PlayerController : MonoBehaviour
     private Vector3 aimDirection;
     [SerializeField] private LayerMask _layerMask;
     private SpriteRenderer reloadButton;
+    public Texture2D cursorTextureBase;
+    public Texture2D cursorTextureShoot;
+    public CursorMode cursorMode = CursorMode.Auto;
+    public Vector2 hotSpot = Vector2.zero;
+    private float cursorShooterTime = 0.2f;
+    private float cursorShooterTimer = 0f;
+    private bool cursorShooting;
 
     public event EventHandler<ShootingEventArgs> Shooting;
 
@@ -28,12 +35,13 @@ public class Sc_PlayerController : MonoBehaviour
     
     void Start()
     {
-        reloadButton = GameObject.FindGameObjectWithTag("UI").transform.Find("Reload_Button").GetComponent<SpriteRenderer>();
+        reloadButton = GameObject.FindGameObjectWithTag("UI").transform.Find("Healthbar+Gun").transform.Find("Reload_Button").GetComponent<SpriteRenderer>();
         inputManager = Sc_PlayerInputs.Instance;
         aimGunEndPoint = GameObject.Find("GunEndPointPosition");
         playerStats = Sc_PlayerStats.StatsInstance;
 
         reloadButton.enabled = false;
+        Cursor.SetCursor(cursorTextureBase, hotSpot, cursorMode);
     }
 
     
@@ -43,12 +51,22 @@ public class Sc_PlayerController : MonoBehaviour
         HandleRotation();
         HandleShooting();
         HandleReloading();
+        if (cursorShooting)
+        {
+            cursorShooterTimer -= Time.deltaTime;
+            if (cursorShooterTimer <= 0)
+            {
+                Cursor.SetCursor(cursorTextureBase, hotSpot, cursorMode);
+                cursorShooterTimer = cursorShooterTime;
+                cursorShooting = false;
+            }
+        }
     }
 
     private void HandleMovement()
     {
         Vector3 moveDirection = new Vector3(0, 0);
-        if (inputManager.GetMovingUp()) 
+        if (inputManager.GetMovingUp())
             moveDirection.y = +1;
         if (inputManager.GetMovingDown()) 
             moveDirection.y = -1;
@@ -83,6 +101,9 @@ public class Sc_PlayerController : MonoBehaviour
     {
         if (inputManager.FireArmLeft())
         {
+            Cursor.SetCursor(cursorTextureShoot, hotSpot, cursorMode);
+            cursorShooting = true;
+            cursorShooterTimer = cursorShooterTime;
             if (playerStats.currentAmmoInMagazine > 0)
             {
                 playerStats.currentAmmoInMagazine--;

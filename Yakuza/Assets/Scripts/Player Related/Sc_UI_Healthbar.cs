@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Sc_UI_Healthbar : MonoBehaviour
 {
-    public GameObject player;
+    public GameObject gameManager;
     private SpriteRenderer tick1;
     private SpriteRenderer tick2;
     private SpriteRenderer tick3;
@@ -19,6 +19,7 @@ public class Sc_UI_Healthbar : MonoBehaviour
     public int currentMagazineDisplay;
     public float currentBulletCountToDisplay;
     private Image bulletCount;
+
 
 
     //Get the UI elements for Health Ticks
@@ -40,7 +41,7 @@ public class Sc_UI_Healthbar : MonoBehaviour
     //Update the UI elements for Health Ticks
     void Update()
     {
-        hp = player.GetComponent<Sc_PlayerStats>().currentHealth;
+        hp = gameManager.GetComponent<Sc_PlayerStats>().currentHealth;
 
         if (hp > 0) {
             tick1.enabled = true;
@@ -83,10 +84,10 @@ public class Sc_UI_Healthbar : MonoBehaviour
             tick1.enabled = false;
         }
 
-        currentMagazineDisplay = player.GetComponent<Sc_PlayerStats>().currentMagazine;
+        currentMagazineDisplay = gameManager.GetComponent<Sc_PlayerStats>().currentMagazine;
         chargerText.text = currentMagazineDisplay.ToString();
 
-        currentBulletCountToDisplay = player.GetComponent<Sc_PlayerStats>().currentAmmoInMagazine;
+        currentBulletCountToDisplay = gameManager.GetComponent<Sc_PlayerStats>().currentAmmoInMagazine;
         bulletCount.fillAmount = currentBulletCountToDisplay/ 10;
     }
 }
