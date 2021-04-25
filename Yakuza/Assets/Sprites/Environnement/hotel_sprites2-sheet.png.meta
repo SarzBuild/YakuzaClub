@@ -1,0 +1,1078 @@
+fileFormatVersion: 2
+guid: e9669d621849b9344a593da80a95e183
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8928014210586895899
+    second: lobby_floor
+  - first:
+      213: 8798419294707532951
+    second: hotel_sprites2-sheet_1
+  - first:
+      213: 329091690801917173
+    second: hotel_sprites2-sheet_2
+  - first:
+      213: 3324235339548382748
+    second: hotel_sprites2-sheet_3
+  - first:
+      213: -6298388433997368033
+    second: hotel_sprites2-sheet_4
+  - first:
+      213: -3113700812230514600
+    second: hotel_sprites2-sheet_5
+  - first:
+      213: -7177149635632215586
+    second: hotel_sprites2-sheet_6
+  - first:
+      213: -9031708980135860709
+    second: lobby_dragon_emblem
+  - first:
+      213: 3752237182000552139
+    second: lobby_column
+  - first:
+      213: 1728005708366583879
+    second: lobby_sofa
+  - first:
+      213: 8419541547481723348
+    second: lobby_armchair
+  - first:
+      213: -5722329841724630029
+    second: lobby_table
+  - first:
+      213: 3822165753183417953
+    second: plantA
+  - first:
+      213: -3114868273178419050
+    second: plantB
+  - first:
+      213: 5549821561419605648
+    second: welcome_carpet
+  - first:
+      213: 8942201700821998917
+    second: 9
+  - first:
+      213: 6069267464235491738
+    second: hotel_sprites2-sheet_16
+  - first:
+      213: -4623229080743489465
+    second: hotel_sprites2-sheet_17
+  - first:
+      213: -2965819433633243937
+    second: hotel_sprites2-sheet_18
+  - first:
+      213: -2681231555289895125
+    second: hotel_sprites2-sheet_19
+  - first:
+      213: 5068438095579588334
+    second: hotel_sprites2-sheet_20
+  - first:
+      213: 6464380015246247808
+    second: hotel_sprites2-sheet_21
+  - first:
+      213: 6837959717429266614
+    second: 10
+  - first:
+      213: 865601448681767367
+    second: 11
+  - first:
+      213: -4388949663202797045
+    second: 12
+  - first:
+      213: -7413907790902202240
+    second: 13
+  - first:
+      213: -6179418302329964723
+    second: 14
+  - first:
+      213: 2058115863554217003
+    second: 15
+  - first:
+      213: 3555227128363862899
+    second: 16
+  - first:
+      213: 7861582978160741492
+    second: 17
+  - first:
+      213: -4045037142767602268
+    second: 18
+  - first:
+      213: -4368170904903347425
+    second: background_void
+  - first:
+      213: -3518530116536342289
+    second: hotel_sprites2-sheet_32
+  - first:
+      213: 1172167945616284246
+    second: hotel_sprites2-sheet_33
+  - first:
+      213: -365946640112140490
+    second: hotel_sprites2-sheet_34
+  - first:
+      213: -2176988147659450801
+    second: hotel_sprites2-sheet_35
+  - first:
+      213: -4156145376244401296
+    second: hotel_sprites2-sheet_36
+  - first:
+      213: 289019486633418040
+    second: hotel_sprites2-sheet_37
+  - first:
+      213: 1778409639562112939
+    second: hotel_sprites2-sheet_38
+  - first:
+      213: 925244039370571931
+    second: hotel_sprites2-sheet_39
+  - first:
+      213: 6879677425770597265
+    second: hotel_sprites2-sheet_40
+  - first:
+      213: -6143053504098441174
+    second: hotel_sprites2-sheet_41
+  - first:
+      213: 4581758256303750609
+    second: hotel_sprites2-sheet_42
+  - first:
+      213: -7890354161734996318
+    second: hotel_sprites2-sheet_43
+  - first:
+      213: 4851705357470271503
+    second: hotel_sprites2-sheet_44
+  - first:
+      213: 2447853064872812474
+    second: hotel_sprites2-sheet_45
+  - first:
+      213: -6607787023005969440
+    second: hotel_sprites2-sheet_46
+  - first:
+      213: -669459193258532010
+    second: hotel_sprites2-sheet_47
+  - first:
+      213: -1150568460519643073
+    second: hotel_sprites2-sheet_48
+  - first:
+      213: 5096116116779248157
+    second: hotel_sprites2-sheet_49
+  - first:
+      213: -3954439743474532150
+    second: hotel_sprites2-sheet_50
+  - first:
+      213: 3459444170165831223
+    second: hotel_sprites2-sheet_51
+  - first:
+      213: 4292467214023718113
+    second: hotel_sprites2-sheet_52
+  - first:
+      213: 7538373178941022317
+    second: hotel_sprites2-sheet_53
+  - first:
+      213: 7051211870257557039
+    second: hotel_sprites2-sheet_54
+  - first:
+      213: -3064985088368929430
+    second: hotel_sprites2-sheet_55
+  - first:
+      213: 6193042686162657753
+    second: lobby_desk_side
+  - first:
+      213: 4425779413860521425
+    second: hotel_sprites2-sheet_57
+  - first:
+      213: 6794143510752453657
+    second: hotel_sprites2-sheet_58
+  - first:
+      213: 7649857870393603166
+    second: hotel_sprites2-sheet_59
+  - first:
+      213: 8712270518066574755
+    second: hotel_sprites2-sheet_60
+  - first:
+      213: 490839347874686542
+    second: hotel_sprites2-sheet_61
+  - first:
+      213: 2305825012687494496
+    second: hotel_sprites2-sheet_62
+  - first:
+      213: 2363843347135053818
+    second: hotel_sprites2-sheet_63
+  - first:
+      213: 7483232046309393749
+    second: hotel_sprites2-sheet_64
+  - first:
+      213: 3592302441579250875
+    second: hotel_sprites2-sheet_65
+  - first:
+      213: 3765373258031153227
+    second: lobby_desk_end
+  - first:
+      213: -5628505185083602903
+    second: lobby_desk_middle
+  - first:
+      213: -3597214309915118038
+    second: lobby_desk_corner
+  - first:
+      213: -5142448493200658644
+    second: lobby_bell
+  - first:
+      213: 8016727696665077999
+    second: lobby_label
+  - first:
+      213: -6279685203843472179
+    second: hotel_sprites2-sheet_71
+  - first:
+      213: -6360209639065953078
+    second: hotel_sprites2-sheet_72
+  - first:
+      213: -3690454212326040687
+    second: hotel_sprites2-sheet_73
+  - first:
+      213: -2761376369020646078
+    second: hotel_sprites2-sheet_74
+  - first:
+      213: -4595262921172050417
+    second: hotel_sprites2-sheet_75
+  - first:
+      213: -5437847868199098242
+    second: hotel_sprites2-sheet_76
+  - first:
+      213: 7732182413810178362
+    second: hotel_sprites2-sheet_77
+  - first:
+      213: 8398295613310465552
+    second: hotel_sprites2-sheet_78
+  - first:
+      213: 4990044573554381448
+    second: hotel_sprites2-sheet_79
+  - first:
+      213: 3857172456683336722
+    second: hotel_sprites2-sheet_80
+  - first:
+      213: -873919750349340576
+    second: hotel_sprites2-sheet_81
+  - first:
+      213: 8180135143388786058
+    second: hotel_sprites2-sheet_82
+  - first:
+      213: -1173561827694335200
+    second: hotel_sprites2-sheet_83
+  - first:
+      213: 6439703292813131328
+    second: hotel_sprites2-sheet_84
+  - first:
+      213: -199120384597934009
+    second: hotel_sprites2-sheet_85
+  - first:
+      213: -6335585781469546809
+    second: hotel_sprites2-sheet_86
+  - first:
+      213: 8883860564461947779
+    second: hotel_sprites2-sheet_87
+  - first:
+      213: -7168873351322145571
+    second: hotel_sprites2-sheet_88
+  - first:
+      213: -2937591167040554273
+    second: lobby_column1
+  - first:
+      213: -8188151431868134914
+    second: lobby_column2
+  - first:
+      213: 1048441783441927520
+    second: hotel_sprites2-sheet_91
+  - first:
+      213: -3902338771651399100
+    second: hotel_sprites2-sheet_92
+  - first:
+      213: -5606881744524070949
+    second: hotel_sprites2-sheet_93
+  - first:
+      213: 1223671487146855991
+    second: hotel_sprites2-sheet_94
+  - first:
+      213: 8812129939742672511
+    second: hotel_sprites2-sheet_95
+  - first:
+      213: -4465808656357459672
+    second: hotel_sprites2-sheet_96
+  - first:
+      213: 3546364049745075559
+    second: hotel_sprites2-sheet_97
+  - first:
+      213: -6213727223074889686
+    second: hotel_sprites2-sheet_98
+  - first:
+      213: -6757674634392763900
+    second: last
+  - first:
+      213: 4091829533418422151
+    second: lobby_column3
+  - first:
+      213: -5848924046867114036
+    second: lobby_column4
+  - first:
+      213: 3867960810427438812
+    second: hotel_sprites2-sheet_102
+  - first:
+      213: -7843250529737666177
+    second: hotel_sprites2-sheet_103
+  - first:
+      213: 6978685830152885651
+    second: hotel_sprites2-sheet_104
+  - first:
+      213: -873763819462728282
+    second: hotel_sprites2-sheet_105
+  - first:
+      213: -3688970106948064521
+    second: hotel_sprites2-sheet_106
+  - first:
+      213: 5362370518745565831
+    second: hotel_sprites2-sheet_107
+  - first:
+      213: 979099063219993805
+    second: hotel_sprites2-sheet_108
+  - first:
+      213: -7722559135440840543
+    second: hotel_sprites2-sheet_109
+  - first:
+      213: 224205905877049561
+    second: hotel_sprites2-sheet_110
+  - first:
+      213: -8069390262115244228
+    second: hotel_sprites2-sheet_111
+  - first:
+      213: 7306187438544551092
+    second: hotel_sprites2-sheet_112
+  - first:
+      213: 1072890385986442885
+    second: hotel_sprites2-sheet_113
+  - first:
+      213: -722555270918035099
+    second: plantC
+  - first:
+      213: 3040326459270203991
+    second: hotel_sprites2-sheet_115
+  - first:
+      213: 8883794220579818064
+    second: hotel_sprites2-sheet_116
+  - first:
+      213: 2943010067247656854
+    second: hotel_sprites2-sheet_117
+  - first:
+      213: -2637114033223317807
+    second: hotel_sprites2-sheet_118
+  - first:
+      213: -8259930807538064192
+    second: hotel_sprites2-sheet_119
+  - first:
+      213: -8024857724524539714
+    second: hotel_sprites2-sheet_120
+  - first:
+      213: 1068582646565589323
+    second: hotel_sprites2-sheet_121
+  - first:
+      213: 2089143231200589728
+    second: hotel_sprites2-sheet_122
+  - first:
+      213: 3308562120824256784
+    second: hotel_sprites2-sheet_123
+  - first:
+      213: -298276119558523717
+    second: hotel_sprites2-sheet_124
+  - first:
+      213: 5398608069640975810
+    second: hotel_sprites2-sheet_125
+  - first:
+      213: -5570783438962245728
+    second: hotel_sprites2-sheet_126
+  - first:
+      213: 1549976655043999174
+    second: plantD
+  - first:
+      213: -984343243218962737
+    second: hotel_sprites2-sheet_128
+  - first:
+      213: 2667556070113290220
+    second: hotel_sprites2-sheet_129
+  - first:
+      213: 2198860423059132907
+    second: hotel_sprites2-sheet_130
+  - first:
+      213: 8240456325944628188
+    second: hotel_sprites2-sheet_131
+  - first:
+      213: 5492226164242410258
+    second: hotel_sprites2-sheet_132
+  - first:
+      213: -6821844449127872650
+    second: hotel_sprites2-sheet_133
+  - first:
+      213: 9009678692934075730
+    second: hotel_sprites2-sheet_134
+  - first:
+      213: 1327081083372363162
+    second: hotel_sprites2-sheet_135
+  - first:
+      213: -5229639349096806100
+    second: bookA
+  - first:
+      213: 4908769917114843429
+    second: bookB
+  - first:
+      213: -5100876690091657272
+    second: lobby_papers1
+  - first:
+      213: -3246748521185581411
+    second: lobby_papers2
+  - first:
+      213: 6336503579034725637
+    second: lobby_table_1
+  - first:
+      213: 4066288177448395175
+    second: lobby_table_2
+  - first:
+      213: 596878396727923737
+    second: lobby_table_3
+  - first:
+      213: 4344726794057369154
+    second: lobby_glass1
+  - first:
+      213: -4339314896501173006
+    second: lobby_glass2
+  - first:
+      213: 6668741815918045904
+    second: lobby_papers3
+  - first:
+      213: 1224554678424887220
+    second: lobby_table_4
+  - first:
+      213: 5487929884040768681
+    second: lobby_table_5
+  - first:
+      213: -3726549752900392183
+    second: lobby_table_6
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lobby_floor
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 448
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9145cc062591480800000000000000
+      internalID: -8928014210586895899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_dragon_emblem
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 144
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16eb4cd88ce8a280800000000000000
+      internalID: -9031708980135860709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: background_void
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 432
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f131a0f94b32163c0800000000000000
+      internalID: -4368170904903347425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_desk_side
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d16e8bc28b12f550800000000000000
+      internalID: 6193042686162657753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_desk_end
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40c3b3470b414430800000000000000
+      internalID: 3765373258031153227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_desk_middle
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928c5a2fa5883e1b0800000000000000
+      internalID: -5628505185083602903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_desk_corner
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26be8cd4a0241ec0800000000000000
+      internalID: -3597214309915118038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_bell
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f280f575a52a8b0800000000000000
+      internalID: -5142448493200658644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_label
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8e1cc9d53214f60800000000000000
+      internalID: 8016727696665077999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantC
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56928523fc7f8f5f0800000000000000
+      internalID: -722555270918035099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantD
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5bb0e3e8f928510800000000000000
+      internalID: 1549976655043999174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bookA
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c290ea548b69c67b0800000000000000
+      internalID: -5229639349096806100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bookB
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52101c95b347f1440800000000000000
+      internalID: 4908769917114843429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_papers1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7340c0dab0639b0800000000000000
+      internalID: -5100876690091657272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_papers2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9665b70c6b31f2d0800000000000000
+      internalID: -3246748521185581411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_glass1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24649e5fff19b4c30800000000000000
+      internalID: 4344726794057369154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_glass2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f49c71a718a7c3c0800000000000000
+      internalID: -4339314896501173006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_papers3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daa69c59512c8c50800000000000000
+      internalID: 6668741815918045904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_column
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8d72a36df921430800000000000000
+      internalID: 3752237182000552139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_sofa
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7489901590c1bf710800000000000000
+      internalID: 1728005708366583879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_armchair
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 272
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d17a45cd6838d470800000000000000
+      internalID: 8419541547481723348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lobby_table
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbd260c3533690b0800000000000000
+      internalID: -5722329841724630029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantA
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1663927708f0b0530800000000000000
+      internalID: 3822165753183417953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantB
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690e01f0fc3c5c4d0800000000000000
+      internalID: -3114868273178419050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: welcome_carpet
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 416
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096283f4e4de40d40800000000000000
+      internalID: 5549821561419605648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
