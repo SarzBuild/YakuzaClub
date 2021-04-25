@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class Sc_PlayerController : MonoBehaviour
 {
+    private Sc_DialogueTrigger cutsceneDialogue;
     private Sc_PlayerInputs inputManager;
     private Sc_PlayerStats playerStats;
     private GameObject aimGunEndPoint;
@@ -47,18 +48,21 @@ public class Sc_PlayerController : MonoBehaviour
     
     void Update()
     {
-        HandleMovement();
-        HandleRotation();
-        HandleShooting();
-        HandleReloading();
-        if (cursorShooting)
+        if (!InCutscene())
         {
-            cursorShooterTimer -= Time.deltaTime;
-            if (cursorShooterTimer <= 0)
+            HandleMovement();
+            HandleRotation();
+            HandleShooting();
+            HandleReloading();
+            if (cursorShooting)
             {
-                Cursor.SetCursor(cursorTextureBase, hotSpot, cursorMode);
-                cursorShooterTimer = cursorShooterTime;
-                cursorShooting = false;
+                cursorShooterTimer -= Time.deltaTime;
+                if (cursorShooterTimer <= 0)
+                {
+                    Cursor.SetCursor(cursorTextureBase, hotSpot, cursorMode);
+                    cursorShooterTimer = cursorShooterTime;
+                    cursorShooting = false;
+                }
             }
         }
     }
@@ -148,6 +152,32 @@ public class Sc_PlayerController : MonoBehaviour
                 playerStats.currentMagazine--;
                 //Play Reloading sound
             }
+        }
+    }
+
+    private bool InCutscene()
+    {
+        if (cutsceneDialogue != null)
+            return cutsceneDialogue.DialogueActive();
+        else
+            return false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Cutscene")
+        {
+            cutsceneDialogue = collision.gameObject.GetComponent<Sc_DialogueTrigger>();
+
+            cutsceneDialogue.ActivateDialogue();    
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Cutscene")
+        {
+            cutsceneDialogue = null;
         }
     }
 }
