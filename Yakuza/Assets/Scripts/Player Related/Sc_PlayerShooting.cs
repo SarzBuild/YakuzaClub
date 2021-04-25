@@ -43,6 +43,15 @@ public class Sc_PlayerShooting : MonoBehaviour
         Sc_FunctionUpdater.FunctionUpdater.Create(() =>
         {
             timer -= Time.deltaTime;
+            if (worldMesh.gameObject.GetComponent<BoxCollider2D>() == null)
+            {
+                worldMesh.gameObject.AddComponent<BoxCollider2D>();
+                worldMesh.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
+            }
+
+            if (worldMesh.gameObject.GetComponent<Sc_PlayerBullet>() == null)
+                worldMesh.gameObject.AddComponent<Sc_PlayerBullet>();
+
             if (timer <= 0)
             {
                 frame++;

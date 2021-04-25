@@ -85,6 +85,10 @@ public class Sc_PlayerController : MonoBehaviour
         //RaycastHit2D raycastHit = Physics2D.Raycast(transform.position + moveDirection * .25f, moveDir, Vector3.Distance(transform.position, targetMoveToPosition));
         if (raycastHit.collider != null) 
         {
+            if (raycastHit.collider.CompareTag("Untagged"))
+            {
+                transform.position = targetMoveToPosition;
+            }
         } 
         else
         {
