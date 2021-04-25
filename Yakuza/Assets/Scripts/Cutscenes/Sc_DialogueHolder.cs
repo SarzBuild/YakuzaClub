@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace DialogueSystem
@@ -20,6 +19,8 @@ namespace DialogueSystem
                 yield return new WaitUntil(() => transform.GetChild(i).GetComponent<Sc_DialogueLine>().dialogueFinished);
             }
             gameObject.SetActive(false);
+            Destroy(transform.parent.gameObject);
+
         }
 
         private void Deactivate()
