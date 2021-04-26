@@ -21,18 +21,23 @@ public class Sc_EnemyAI1 : MonoBehaviour
     private Rigidbody2D rb2d;
     private Material _material;
     private Transform bestCoverPoint;
-    
+
     private NavMeshAgent agent;
 
+    public GameObject bloodSplat1;
+    public GameObject bloodSplat2;
+    public GameObject bloodSplat3;
+    public GameObject bloodSplat4;
+    public GameObject bloodSplat5;
     private Sc_Node topNode;
     private float velocityTimer;
     private float _currentHealth;
-    
+
     private Vector3 targetPosition;
     private Vector3 aimDirection;
 
     public event EventHandler<ShootingEventArgs> Shooting;
-    
+
     public class ShootingEventArgs : EventArgs
     {
         public Vector3 gunPointPosition;
@@ -40,7 +45,7 @@ public class Sc_EnemyAI1 : MonoBehaviour
     }
 
     public float currentHealth { get { return _currentHealth; } set { _currentHealth = Mathf.Clamp(value, 0, startingHealth); } }
-    
+
     void Awake()
     {
         agent = this.GetComponent<NavMeshAgent>();
@@ -66,15 +71,15 @@ public class Sc_EnemyAI1 : MonoBehaviour
         Sc_RangeNode shootingRangeNode = new Sc_RangeNode(shootingRange, playerTransform.transform, transform);
         Sc_ShootNode shootNode = new Sc_ShootNode(agent, this, playerTransform.transform);
 
-        Sc_Sequence chaseSequence = new Sc_Sequence(new List<Sc_Node> {chasingRangeNode, chaseNode});
-        Sc_Sequence shootSequence = new Sc_Sequence(new List<Sc_Node> {shootingRangeNode, shootNode});
-        
-        Sc_Sequence goToCoverSequence = new Sc_Sequence(new List<Sc_Node> {coverAvailableNode, goToCoverNode});
-        Sc_Selector findCoverSelector = new Sc_Selector(new List<Sc_Node> {goToCoverSequence, chaseSequence});
-        Sc_Selector tryToTakeCoverSelector = new Sc_Selector(new List<Sc_Node> {isCoveredNode, findCoverSelector});
-        Sc_Sequence mainCoverSequence = new Sc_Sequence(new List<Sc_Node> {healthNode, tryToTakeCoverSelector});
+        Sc_Sequence chaseSequence = new Sc_Sequence(new List<Sc_Node> { chasingRangeNode, chaseNode });
+        Sc_Sequence shootSequence = new Sc_Sequence(new List<Sc_Node> { shootingRangeNode, shootNode });
 
-        topNode = new Sc_Selector(new List<Sc_Node> {mainCoverSequence, shootSequence, chaseSequence});
+        Sc_Sequence goToCoverSequence = new Sc_Sequence(new List<Sc_Node> { coverAvailableNode, goToCoverNode });
+        Sc_Selector findCoverSelector = new Sc_Selector(new List<Sc_Node> { goToCoverSequence, chaseSequence });
+        Sc_Selector tryToTakeCoverSelector = new Sc_Selector(new List<Sc_Node> { isCoveredNode, findCoverSelector });
+        Sc_Sequence mainCoverSequence = new Sc_Sequence(new List<Sc_Node> { healthNode, tryToTakeCoverSelector });
+
+        topNode = new Sc_Selector(new List<Sc_Node> { mainCoverSequence, shootSequence, chaseSequence });
     }
 
     void Update()
@@ -84,10 +89,10 @@ public class Sc_EnemyAI1 : MonoBehaviour
         {
             SetColor(Color.red);
         }
-        
+
         currentHealth += Time.deltaTime * healthRestoreRate;
         velocityTimer -= Time.deltaTime;
-        if(velocityTimer <= 0)
+        if (velocityTimer <= 0)
             rb2d.velocity = Vector2.zero;
         ;
         CheckIfDead();
@@ -134,11 +139,31 @@ public class Sc_EnemyAI1 : MonoBehaviour
 
     public void GetDamaged(int damage)
     {
+        spawnRandomBloodsplat();
         Knockback();
         currentHealth -= damage;
         //Anim
         //Knockback
         //Possible sound
+    }
+
+    public void spawnRandomBloodsplat() {
+        switch (UnityEngine.Random.Range(0,4)) {
+            case 0:  Instantiate(bloodSplat1, new Vector3(transform.position.x, transform.position.y, -2), Quaternion.identity);
+                break;
+            case 1:
+                Instantiate(bloodSplat2, new Vector3(transform.position.x, transform.position.y, -2), Quaternion.identity);
+                break;
+            case 2:
+                Instantiate(bloodSplat3, new Vector3(transform.position.x, transform.position.y, -2), Quaternion.identity);
+                break;
+            case 3:
+                Instantiate(bloodSplat4, new Vector3(transform.position.x, transform.position.y, -2), Quaternion.identity);
+                break;
+            case 4:
+                Instantiate(bloodSplat5, new Vector3(transform.position.x, transform.position.y, -2), Quaternion.identity);
+                break;
+        }
     }
 
     public void Knockback()

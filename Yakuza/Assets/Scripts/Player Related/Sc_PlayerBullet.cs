@@ -18,6 +18,8 @@ public class Sc_PlayerBullet : MonoBehaviour
                 else
                     //Crit damage
                     damage = 5;
+
+
                 
                 collision.gameObject.GetComponent<Sc_EnemyAI1>().GetDamaged(damage);
             }
