@@ -148,7 +148,7 @@ public class Sc_PlayerController : MonoBehaviour
         if (needToReload)
         {
             reloadButton.enabled = true;
-            if (inputManager.GetReloading())
+            if (inputManager.GetReloading() && playerStats.currentMagazine > 0)
             {
                 needToReload = false;
                 reloadButton.enabled = false;
@@ -158,6 +158,8 @@ public class Sc_PlayerController : MonoBehaviour
             }
         }
     }
+
+
 
     private bool InCutscene()
     {
@@ -169,6 +171,24 @@ public class Sc_PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+       if (collision.gameObject.tag == "ConsumableHP")
+        {
+            Destroy(collision.gameObject);
+
+            if (playerStats.currentHealth < 8)
+            {
+                playerStats.currentHealth++;
+            }
+          
+        }
+
+        if (collision.gameObject.tag == "ConsumableBullet")
+        {
+            playerStats.currentMagazine++;
+            Destroy(collision.gameObject);
+        }
+
+
         if (collision.gameObject.tag == "Cutscene")
         {
             cutsceneDialogue = collision.gameObject.GetComponent<Sc_DialogueTrigger>();

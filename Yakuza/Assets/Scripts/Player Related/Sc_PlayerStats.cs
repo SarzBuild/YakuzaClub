@@ -32,13 +32,9 @@ public class Sc_PlayerStats : MonoBehaviour
     //Quick keybinds to test player losing and gaining HP on the UI
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T)) {
-            currentHealth--;
-        }
-        if (Input.GetKeyDown(KeyCode.Y)) {
-            currentHealth++;
-        }
+
     }
+
 
 
     //Player Stats
@@ -54,5 +50,7 @@ public class Sc_PlayerStats : MonoBehaviour
     
     //Prefabs
     public GameObject bulletPrefab;
+    public GameObject consumableHP;
+    public GameObject consumableMagazine;
 
 }
