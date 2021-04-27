@@ -33,13 +33,13 @@ public class Sc_PlayerShooting : MonoBehaviour
         float distance = Vector3.Distance(fromPosition, targetPosition);
         Vector3 tracerSpawnPosition = fromPosition + dir * distance * .5f;
         Material tempWeaponMaterial = new Material(weaponTracerMaterial);
-        tempWeaponMaterial.SetTextureScale("_MainTex", new Vector2( 1f, distance / 128));
-        Sc_WorldMesh.World_Mesh worldMesh = Sc_WorldMesh.World_Mesh.Create(tracerSpawnPosition, eulerZ, .1f, distance, tempWeaponMaterial, null, 10000);
+        tempWeaponMaterial.SetTextureScale("_MainTex", new Vector2( 1f, distance / 75));
+        Sc_WorldMesh.World_Mesh worldMesh = Sc_WorldMesh.World_Mesh.Create(tracerSpawnPosition, eulerZ, 1f, distance, tempWeaponMaterial, null, 10000);
 
         int frame = 0;
         float framerate = .016f;
         float timer = framerate;
-        worldMesh.SetUVCoords(new Sc_WorldMesh.World_Mesh.UVCoords(0, 0, 16, 128));
+        worldMesh.SetUVCoords(new Sc_WorldMesh.World_Mesh.UVCoords(0, 0, 8, 75));
         Sc_FunctionUpdater.FunctionUpdater.Create(() =>
         {
             timer -= Time.deltaTime;
@@ -63,7 +63,7 @@ public class Sc_PlayerShooting : MonoBehaviour
                 }
                 else
                 {
-                    worldMesh.SetUVCoords(new Sc_WorldMesh.World_Mesh.UVCoords(frame, 0, 16, 128));
+                    worldMesh.SetUVCoords(new Sc_WorldMesh.World_Mesh.UVCoords(8 * frame, 0, 8, 75));
                 }
             }
             return false;

@@ -25,6 +25,11 @@ public class Sc_PlayerController : MonoBehaviour
     private float cursorShooterTime = 0.2f;
     private float cursorShooterTimer = 0f;
     private bool cursorShooting;
+    public GameObject bloodSplat1;
+    public GameObject bloodSplat2;
+    public GameObject bloodSplat3;
+    public GameObject bloodSplat4;
+    public GameObject bloodSplat5;
 
     public event EventHandler<ShootingEventArgs> Shooting;
 
@@ -114,6 +119,7 @@ public class Sc_PlayerController : MonoBehaviour
             cursorShooterTimer = cursorShooterTime;
             if (playerStats.currentAmmoInMagazine > 0)
             {
+                Sc_CameraRelated.CameraInstance.ShakeCamera(5f, .1f);
                 playerStats.currentAmmoInMagazine--;
                 RaycastHit2D raycastHit2D = Physics2D.Raycast(aimGunEndPoint.transform.position, aimDirection , Vector3.Distance(aimGunEndPoint.transform.position, inputManager.GetMousePos()), _layerMask);
                 if (raycastHit2D.collider == null)
@@ -158,6 +164,32 @@ public class Sc_PlayerController : MonoBehaviour
             }
         }
     }
+
+    public void HandleDamage(int damage)
+    {
+        spawnRandomBloodsplat();
+        playerStats.currentHealth -= damage;
+    }
+    
+    public void spawnRandomBloodsplat() {
+        switch (UnityEngine.Random.Range(0,4)) {
+            case 0:  Instantiate(bloodSplat1, new Vector3(transform.position.x, transform.position.y, -2), Quaternion.identity);
+                break;
+            case 1:
+                Instantiate(bloodSplat2, new Vector3(transform.position.x, transform.position.y, -2), Quaternion.identity);
+                break;
+            case 2:
+                Instantiate(bloodSplat3, new Vector3(transform.position.x, transform.position.y, -2), Quaternion.identity);
+                break;
+            case 3:
+                Instantiate(bloodSplat4, new Vector3(transform.position.x, transform.position.y, -2), Quaternion.identity);
+                break;
+            case 4:
+                Instantiate(bloodSplat5, new Vector3(transform.position.x, transform.position.y, -2), Quaternion.identity);
+                break;
+        }
+    }
+    
 
 
 

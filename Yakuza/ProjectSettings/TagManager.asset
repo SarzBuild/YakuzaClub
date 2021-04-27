@@ -8,6 +8,9 @@ TagManager:
   - Enemy
   - Cutscene
   - Walls
+  - ConsumableBullet
+  - ConsumableHP
+  - Crossfade
   layers:
   - Default
   - TransparentFX
