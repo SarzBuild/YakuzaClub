@@ -27,6 +27,7 @@ namespace DialogueSystem
         public GameObject point18;
         public GameObject copEnemy;
 
+
         private void Awake()
         {
             StartCoroutine(DialogueSequence());
@@ -41,7 +42,9 @@ namespace DialogueSystem
                 yield return new WaitUntil(() => transform.GetChild(i).GetComponent<Sc_DialogueLine>().dialogueFinished);
             }
             gameObject.SetActive(false);
-            SpawnCops();
+            if (hitbox != null) {
+                SpawnCops();
+            }
             Destroy(hitbox);
             Destroy(transform.gameObject);
 
