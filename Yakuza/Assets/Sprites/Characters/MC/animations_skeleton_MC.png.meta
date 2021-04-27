@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: 585e6a10b504ea842abe2d29ac12cb17
+guid: 25eb6e87544612f40a37c5de2b1fbcc9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1408959539683957545
-    second: animations_skeleton_COP_0
+      213: 9194447251790459081
+    second: animations_skeleton_MC_0
   - first:
-      213: -8573786264655329286
-    second: animations_skeleton_COP_1
+      213: -6869672417815513246
+    second: animations_skeleton_MC_1
   - first:
-      213: -2034674742733528336
-    second: animations_skeleton_COP_2
+      213: -6708016833558851766
+    second: animations_skeleton_MC_2
   - first:
-      213: -4598821784509299826
-    second: animations_skeleton_COP_3
+      213: 4036301513468020252
+    second: animations_skeleton_MC_3
   - first:
-      213: -8227403172733896911
-    second: animations_skeleton_COP_4
+      213: -1101545831278357729
+    second: animations_skeleton_MC_4
   - first:
-      213: -6008353078434387730
-    second: animations_skeleton_COP_5
+      213: -5732191571533892072
+    second: animations_skeleton_MC_5
   - first:
-      213: -2749318134948044800
-    second: animations_skeleton_COP_IDLE1hand
+      213: -6277508481864216320
+    second: animations_skeleton_MC_6
   - first:
-      213: 4923099999379540314
-    second: animations_skeleton_COP_7
+      213: 4080975544802419576
+    second: animations_skeleton_MC_7
   - first:
-      213: -7040801023442743412
-    second: animations_skeleton_COP_8
+      213: -7811880495704196549
+    second: animations_skeleton_MC_8
   - first:
-      213: 9152456911162625769
-    second: animations_skeleton_COP_9
+      213: 3562146500089393556
+    second: animations_skeleton_MC_9
   - first:
-      213: -4337710491759497373
-    second: animations_skeleton_COP_10
+      213: -5179816446300895527
+    second: animations_skeleton_MC_10
   - first:
-      213: -5618850943835238035
-    second: animations_skeleton_COP_11
+      213: -1155452203554012085
+    second: animations_skeleton_MC_11
   - first:
-      213: 3021037169254496026
-    second: animations_skeleton_COP_12
+      213: -5617651956531429066
+    second: animations_skeleton_MC_12
   - first:
-      213: -2513385159589778560
-    second: animations_skeleton_COP_13
+      213: -687345511934767946
+    second: animations_skeleton_MC_13
   - first:
-      213: 5895667419110364462
-    second: animations_skeleton_COP_14
+      213: 8607706375544866447
+    second: animations_skeleton_MC_14
   - first:
-      213: -3833314685174774560
-    second: animations_skeleton_COP_15
+      213: 7566552487769253009
+    second: animations_skeleton_MC_15
   - first:
-      213: 7341394827848432410
-    second: animations_skeleton_COP_16
+      213: 5255122001400375950
+    second: animations_skeleton_MC_16
   - first:
-      213: -7698810264626575557
-    second: animations_skeleton_COP_17
+      213: 684818079913597320
+    second: animations_skeleton_MC_17
   - first:
-      213: -7480272809387461808
-    second: animations_skeleton_COP_IDLE2Hand
+      213: -3810387423478742789
+    second: animations_skeleton_MC_18
   - first:
-      213: 6422318581838446002
-    second: animations_skeleton_COP_19
+      213: -1798343728744284667
+    second: animations_skeleton_MC_19
   - first:
-      213: 3489994234852137535
-    second: animations_skeleton_COP_20
+      213: -2489639191990652806
+    second: animations_skeleton_MC_20
   - first:
-      213: 4194090750062222236
-    second: animations_skeleton_COP_21
+      213: -1029446144911671005
+    second: animations_skeleton_MC_21
   - first:
-      213: 1245413931840274276
-    second: animations_skeleton_COP_22
+      213: -2349205903280241102
+    second: animations_skeleton_MC_22
   - first:
-      213: 199266532463973387
-    second: animations_skeleton_COP_23
+      213: -283418037242587978
+    second: animations_skeleton_MC_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -137,7 +137,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -149,7 +149,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -161,19 +161,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -185,7 +173,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: animations_skeleton_COP_0
+      name: animations_skeleton_MC_0
       rect:
         serializedVersion: 2
         x: 0
@@ -193,20 +181,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92b92c18c31ad8310800000000000000
-      internalID: 1408959539683957545
+      spriteID: 9c0790daf0d399f70800000000000000
+      internalID: 9194447251790459081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_1
+      name: animations_skeleton_MC_1
       rect:
         serializedVersion: 2
         x: 64
@@ -214,20 +202,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af7881371dac30980800000000000000
-      internalID: -8573786264655329286
+      spriteID: 267bec445550aa0a0800000000000000
+      internalID: -6869672417815513246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_2
+      name: animations_skeleton_MC_2
       rect:
         serializedVersion: 2
         x: 128
@@ -235,20 +223,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f2a8e50a1263c3e0800000000000000
-      internalID: -2034674742733528336
+      spriteID: a4f42600b3658e2a0800000000000000
+      internalID: -6708016833558851766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_3
+      name: animations_skeleton_MC_3
       rect:
         serializedVersion: 2
         x: 192
@@ -256,20 +244,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e83cefcd3f3bd20c0800000000000000
-      internalID: -4598821784509299826
+      spriteID: c1602ac57d2d30830800000000000000
+      internalID: 4036301513468020252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_4
+      name: animations_skeleton_MC_4
       rect:
         serializedVersion: 2
         x: 256
@@ -277,20 +265,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1373641b76462dd80800000000000000
-      internalID: -8227403172733896911
+      spriteID: f1357d617e586b0f0800000000000000
+      internalID: -1101545831278357729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_5
+      name: animations_skeleton_MC_5
       rect:
         serializedVersion: 2
         x: 320
@@ -298,20 +286,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee82bc275ba0e9ca0800000000000000
-      internalID: -6008353078434387730
+      spriteID: 816fb3ad22a2370b0800000000000000
+      internalID: -5732191571533892072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_IDLE1hand
+      name: animations_skeleton_MC_6
       rect:
         serializedVersion: 2
         x: 0
@@ -319,20 +307,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 000e1e709b578d9d0800000000000000
-      internalID: -2749318134948044800
+      spriteID: 0015bff9b4fc1e8a0800000000000000
+      internalID: -6277508481864216320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_7
+      name: animations_skeleton_MC_7
       rect:
         serializedVersion: 2
         x: 0
@@ -340,20 +328,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a594eb0ad5d525440800000000000000
-      internalID: 4923099999379540314
+      spriteID: 8732105d2a982a830800000000000000
+      internalID: 4080975544802419576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_8
+      name: animations_skeleton_MC_8
       rect:
         serializedVersion: 2
         x: 64
@@ -361,20 +349,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8f0d7fd5cc0a4e90800000000000000
-      internalID: -7040801023442743412
+      spriteID: b3abfb90410a69390800000000000000
+      internalID: -7811880495704196549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_9
+      name: animations_skeleton_MC_9
       rect:
         serializedVersion: 2
         x: 0
@@ -382,20 +370,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eecae3a11f040f70800000000000000
-      internalID: 9152456911162625769
+      spriteID: 491bab76e594f6130800000000000000
+      internalID: 3562146500089393556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_10
+      name: animations_skeleton_MC_10
       rect:
         serializedVersion: 2
         x: 64
@@ -403,20 +391,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36fa0383a4b5dc3c0800000000000000
-      internalID: -4337710491759497373
+      spriteID: 9d6428cc2689d18b0800000000000000
+      internalID: -5179816446300895527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_11
+      name: animations_skeleton_MC_11
       rect:
         serializedVersion: 2
         x: 128
@@ -424,20 +412,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6115d626d4d502b0800000000000000
-      internalID: -5618850943835238035
+      spriteID: b44883cb75207ffe0800000000000000
+      internalID: -1155452203554012085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_12
+      name: animations_skeleton_MC_12
       rect:
         serializedVersion: 2
         x: 0
@@ -445,20 +433,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a177aae9c41ece920800000000000000
-      internalID: 3021037169254496026
+      spriteID: 6318a232f471a02b0800000000000000
+      internalID: -5617651956531429066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_13
+      name: animations_skeleton_MC_13
       rect:
         serializedVersion: 2
         x: 64
@@ -466,20 +454,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08ba9ea8389ae1dd0800000000000000
-      internalID: -2513385159589778560
+      spriteID: 6bc4b2b06ee0676f0800000000000000
+      internalID: -687345511934767946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_14
+      name: animations_skeleton_MC_14
       rect:
         serializedVersion: 2
         x: 128
@@ -487,20 +475,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e25dae5f74e91d150800000000000000
-      internalID: 5895667419110364462
+      spriteID: f86873dc757b47770800000000000000
+      internalID: 8607706375544866447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_15
+      name: animations_skeleton_MC_15
       rect:
         serializedVersion: 2
         x: 192
@@ -508,20 +496,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e48ed58a945dcac0800000000000000
-      internalID: -3833314685174774560
+      spriteID: 194a5d7f56bc10960800000000000000
+      internalID: 7566552487769253009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_16
+      name: animations_skeleton_MC_16
       rect:
         serializedVersion: 2
         x: 256
@@ -529,20 +517,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1bbbc513bfd1e560800000000000000
-      internalID: 7341394827848432410
+      spriteID: e8a2fc01e91fde840800000000000000
+      internalID: 5255122001400375950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_17
+      name: animations_skeleton_MC_17
       rect:
         serializedVersion: 2
         x: 320
@@ -550,20 +538,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b374dc7bad4582590800000000000000
-      internalID: -7698810264626575557
+      spriteID: 889d3055a66f08900800000000000000
+      internalID: 684818079913597320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_IDLE2Hand
+      name: animations_skeleton_MC_18
       rect:
         serializedVersion: 2
         x: 0
@@ -571,20 +559,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0537275138bb03890800000000000000
-      internalID: -7480272809387461808
+      spriteID: bf00fee93d8ce1bc0800000000000000
+      internalID: -3810387423478742789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_19
+      name: animations_skeleton_MC_19
       rect:
         serializedVersion: 2
         x: 0
@@ -592,20 +580,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bdfed829b8a02950800000000000000
-      internalID: 6422318581838446002
+      spriteID: 50e352028effa07e0800000000000000
+      internalID: -1798343728744284667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_20
+      name: animations_skeleton_MC_20
       rect:
         serializedVersion: 2
         x: 64
@@ -613,20 +601,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3ad58c0443fe6030800000000000000
-      internalID: 3489994234852137535
+      spriteID: a70b1867856037dd0800000000000000
+      internalID: -2489639191990652806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_21
+      name: animations_skeleton_MC_21
       rect:
         serializedVersion: 2
         x: 0
@@ -634,20 +622,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9bd531e057643a30800000000000000
-      internalID: 4194090750062222236
+      spriteID: 32105297f2ca6b1f0800000000000000
+      internalID: -1029446144911671005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_22
+      name: animations_skeleton_MC_22
       rect:
         serializedVersion: 2
         x: 64
@@ -655,20 +643,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46f79ad5f59984110800000000000000
-      internalID: 1245413931840274276
+      spriteID: 2360bb67da1f56fd0800000000000000
+      internalID: -2349205903280241102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_COP_23
+      name: animations_skeleton_MC_23
       rect:
         serializedVersion: 2
         x: 128
@@ -676,14 +664,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0493230bdfe3c200800000000000000
-      internalID: 199266532463973387
+      spriteID: 6b49737fbc8111cf0800000000000000
+      internalID: -283418037242587978
       vertices: []
       indices: 
       edges: []

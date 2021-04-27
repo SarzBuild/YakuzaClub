@@ -29,6 +29,7 @@ public class Sc_EnemyAI1 : MonoBehaviour
     public GameObject bloodSplat3;
     public GameObject bloodSplat4;
     public GameObject bloodSplat5;
+    private Sc_DialogueTrigger cutsceneDialogue;
     private Sc_Node topNode;
     private float velocityTimer;
     private float _currentHealth;
@@ -48,6 +49,7 @@ public class Sc_EnemyAI1 : MonoBehaviour
 
     void Awake()
     {
+        cutsceneDialogue = GameObject.Find("cutscene2").GetComponent<Sc_DialogueTrigger>();
         agent = this.GetComponent<NavMeshAgent>();
         _material = GetComponent<SpriteRenderer>().material;
         rb2d = GetComponent<Rigidbody2D>();
@@ -84,18 +86,25 @@ public class Sc_EnemyAI1 : MonoBehaviour
 
     void Update()
     {
-        topNode.Evaluate();
-        if (topNode.nodeState == NodeState.FAILURE)
+        if (!InCutscene())
         {
-            SetColor(Color.red);
-        }
+            topNode.Evaluate();
+            if (topNode.nodeState == NodeState.FAILURE)
+            {
+                SetColor(Color.red);
+            }
 
-        currentHealth += Time.deltaTime * healthRestoreRate;
-        velocityTimer -= Time.deltaTime;
-        if (velocityTimer <= 0)
+            currentHealth += Time.deltaTime * healthRestoreRate;
+            velocityTimer -= Time.deltaTime;
+            if (velocityTimer <= 0)
+                rb2d.velocity = Vector2.zero;
+            ;
+            CheckIfDead();
+        }
+        else
+        {
             rb2d.velocity = Vector2.zero;
-        ;
-        CheckIfDead();
+        }
     }
 
     public void SetColor(Color color)
@@ -180,5 +189,13 @@ public class Sc_EnemyAI1 : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private bool InCutscene()
+    {
+        if (cutsceneDialogue != null)
+            return cutsceneDialogue.DialogueActive();
+        else
+            return false;
     }
 }

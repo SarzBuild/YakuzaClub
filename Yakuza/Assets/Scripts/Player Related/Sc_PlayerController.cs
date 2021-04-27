@@ -30,6 +30,7 @@ public class Sc_PlayerController : MonoBehaviour
     public GameObject bloodSplat3;
     public GameObject bloodSplat4;
     public GameObject bloodSplat5;
+    public GameObject cutsceneTriggerBox;
 
     public event EventHandler<ShootingEventArgs> Shooting;
 
@@ -225,7 +226,7 @@ public class Sc_PlayerController : MonoBehaviour
         {
             cutsceneDialogue = collision.gameObject.GetComponent<Sc_DialogueTrigger>();
 
-            cutsceneDialogue.ActivateDialogue();    
+            cutsceneDialogue.ActivateDialogue();
         }
     }
 
@@ -234,6 +235,7 @@ public class Sc_PlayerController : MonoBehaviour
         if (collision.gameObject.tag == "Cutscene")
         {
             cutsceneDialogue = null;
+           
         }
     }
 }

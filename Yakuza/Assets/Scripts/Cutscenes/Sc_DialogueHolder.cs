@@ -3,8 +3,10 @@ using UnityEngine;
 
 namespace DialogueSystem
 {
+    
     public class Sc_DialogueHolder : MonoBehaviour
     {
+        public GameObject hitbox;
         private void Awake()
         {
             StartCoroutine(DialogueSequence());
@@ -19,7 +21,8 @@ namespace DialogueSystem
                 yield return new WaitUntil(() => transform.GetChild(i).GetComponent<Sc_DialogueLine>().dialogueFinished);
             }
             gameObject.SetActive(false);
-            Destroy(transform.parent.gameObject);
+            Destroy(hitbox);
+            Destroy(transform.gameObject);
 
         }
 

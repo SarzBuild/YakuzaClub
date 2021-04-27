@@ -1,79 +1,91 @@
 fileFormatVersion: 2
-guid: c0ae59b07265c1645a66dc8a8116c89c
+guid: fa5f16e8a75365c4e9375299339320f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 156347571347184158
-    second: animations_skeleton_purple_0
+      213: 2129757627808516627
+    second: Blue_enemy_spritesheet_6
   - first:
-      213: -4581339351404763410
-    second: animations_skeleton_purple_1
+      213: 7755980293427039000
+    second: Blue_enemy_spritesheet_7
   - first:
-      213: 1468625988446827928
-    second: animations_skeleton_purple_2
+      213: -9106779737087087613
+    second: Blue_enemy_spritesheet_8
   - first:
-      213: 3930573703843943909
-    second: animations_skeleton_purple_3
+      213: 5062585031614393553
+    second: Blue_enemy_spritesheet_9
   - first:
-      213: 3608876530287206018
-    second: animations_skeleton_purple_4
+      213: 707555309696995086
+    second: Blue_enemy_spritesheet_0
   - first:
-      213: -1946892159320012199
-    second: animations_skeleton_purple_5
+      213: 3705969903276247664
+    second: Blue_enemy_spritesheet_1
   - first:
-      213: 2709045232667938847
-    second: animations_skeleton_purple_IDLE1Hand
+      213: 1456738566902352363
+    second: Blue_enemy_spritesheet_2
   - first:
-      213: 944143436367028086
-    second: animations_skeleton_purple_7
+      213: -640647118821260002
+    second: Blue_enemy_spritesheet_3
   - first:
-      213: 952623497722127755
-    second: animations_skeleton_purple_8
+      213: -8512406614572350763
+    second: Blue_enemy_spritesheet_4
   - first:
-      213: 7016834881753379113
-    second: animations_skeleton_purple_9
+      213: 7699516875795737897
+    second: Blue_enemy_spritesheet_5
   - first:
-      213: -862752518901770534
-    second: animations_skeleton_purple_10
+      213: 8904025249843316364
+    second: Blue_enemy_spritesheet_10
   - first:
-      213: 7697857121757744926
-    second: animations_skeleton_purple_11
+      213: 3344581344010376863
+    second: Blue_enemy_spritesheet_11
   - first:
-      213: -7149266881837364998
-    second: animations_skeleton_purple_12
+      213: -490136088446313132
+    second: Blue_enemy_spritesheet_12
   - first:
-      213: -2161742640496452529
-    second: animations_skeleton_purple_13
+      213: 5461216123974380754
+    second: Blue_enemy_spritesheet_13
   - first:
-      213: 2017466889018245733
-    second: animations_skeleton_purple_14
+      213: 3957868548508930580
+    second: Blue_enemy_spritesheet_14
   - first:
-      213: 2469580938301137891
-    second: animations_skeleton_purple_15
+      213: -1788211607268812257
+    second: Blue_enemy_spritesheet_15
   - first:
-      213: -598758036719798639
-    second: animations_skeleton_purple_16
+      213: 7320808961616637760
+    second: Blue_enemy_spritesheet_16
   - first:
-      213: 7002956164009600782
-    second: animations_skeleton_purple_17
+      213: -9127276020345522707
+    second: Blue_enemy_spritesheet_17
   - first:
-      213: 2425753338209386203
-    second: animations_skeleton_purple_IDLE2Hands
+      213: -223702874233671805
+    second: Blue_enemy_spritesheet_18
   - first:
-      213: 4981919379926045170
-    second: animations_skeleton_purple_19
+      213: -52827039402151687
+    second: Blue_enemy_spritesheet_19
   - first:
-      213: -5106820688437360981
-    second: animations_skeleton_purple_20
+      213: 3726587836559982822
+    second: Blue_enemy_spritesheet_20
   - first:
-      213: -3708636724788820818
-    second: animations_skeleton_purple_21
+      213: -7830127040687417914
+    second: Blue_enemy_spritesheet_21
   - first:
-      213: -7255274142118269838
-    second: animations_skeleton_purple_22
+      213: -4382703960942373043
+    second: Blue_enemy_spritesheet_22
   - first:
-      213: 9141650848577745462
-    second: animations_skeleton_purple_23
+      213: -3475136972342008296
+    second: Blue_enemy_spritesheet_23
+  - first:
+      213: -6098112642548497954
+    second: Blue_enemy_spritesheet_24
+  - first:
+      213: 3386210781026288819
+    second: Blue_enemy_spritesheet_25
+  - first:
+      213: 7806493633266595071
+    second: Blue_enemy_spritesheet_26
+  - first:
+      213: 2752857741623521333
+    second: Blue_enemy_spritesheet_27
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -169,23 +181,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: animations_skeleton_purple_0
+      name: Blue_enemy_spritesheet_6
       rect:
         serializedVersion: 2
         x: 0
@@ -193,20 +193,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1ad4aba9457b2200800000000000000
-      internalID: 156347571347184158
+      spriteID: 31a843f474b6e8d10800000000000000
+      internalID: 2129757627808516627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_1
+      name: Blue_enemy_spritesheet_7
       rect:
         serializedVersion: 2
         x: 64
@@ -214,20 +214,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee620040220db60c0800000000000000
-      internalID: -4581339351404763410
+      spriteID: 81b06a2ebf6c2ab60800000000000000
+      internalID: 7755980293427039000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_2
+      name: Blue_enemy_spritesheet_8
       rect:
         serializedVersion: 2
         x: 128
@@ -235,20 +235,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 895b74d2e8b916410800000000000000
-      internalID: 1468625988446827928
+      spriteID: 30ce23334183e9180800000000000000
+      internalID: -9106779737087087613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_3
+      name: Blue_enemy_spritesheet_9
       rect:
         serializedVersion: 2
         x: 192
@@ -256,62 +256,146 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e51c1565f33c8630800000000000000
-      internalID: 3930573703843943909
+      spriteID: 1dce596734ae14640800000000000000
+      internalID: 5062585031614393553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_4
+      name: Blue_enemy_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f4e6d2ecdb1d900800000000000000
+      internalID: 707555309696995086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_enemy_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ac111fdff3e6330800000000000000
+      internalID: 3705969903276247664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_enemy_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be983da2200673410800000000000000
+      internalID: 1456738566902352363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_enemy_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e150848f6d6fb17f0800000000000000
+      internalID: -640647118821260002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_enemy_spritesheet_4
       rect:
         serializedVersion: 2
         x: 256
-        y: 448
+        y: 512
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28e530a651e451230800000000000000
-      internalID: 3608876530287206018
+      spriteID: 5d2cab2e84bddd980800000000000000
+      internalID: -8512406614572350763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_5
+      name: Blue_enemy_spritesheet_5
       rect:
         serializedVersion: 2
         x: 320
-        y: 448
+        y: 512
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95accbb65ef3bf4e0800000000000000
-      internalID: -1946892159320012199
+      spriteID: 92d2ee30ecd2ada60800000000000000
+      internalID: 7699516875795737897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_IDLE1Hand
+      name: Blue_enemy_spritesheet_10
       rect:
         serializedVersion: 2
         x: 0
@@ -319,20 +403,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1053a53946789520800000000000000
-      internalID: 2709045232667938847
+      spriteID: c8605080ac3719b70800000000000000
+      internalID: 8904025249843316364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_7
+      name: Blue_enemy_spritesheet_11
       rect:
         serializedVersion: 2
         x: 0
@@ -340,20 +424,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67f5cadf3754a1d00800000000000000
-      internalID: 944143436367028086
+      spriteID: f96132413075a6e20800000000000000
+      internalID: 3344581344010376863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_8
+      name: Blue_enemy_spritesheet_12
       rect:
         serializedVersion: 2
         x: 64
@@ -361,20 +445,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b85ea622606683d00800000000000000
-      internalID: 952623497722127755
+      spriteID: 45dde8c03dfa239f0800000000000000
+      internalID: -490136088446313132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_9
+      name: Blue_enemy_spritesheet_13
       rect:
         serializedVersion: 2
         x: 0
@@ -382,20 +466,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 921fa7ee52ec06160800000000000000
-      internalID: 7016834881753379113
+      spriteID: 2dce02741232acb40800000000000000
+      internalID: 5461216123974380754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_10
+      name: Blue_enemy_spritesheet_14
       rect:
         serializedVersion: 2
         x: 64
@@ -403,20 +487,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad659c5b723e604f0800000000000000
-      internalID: -862752518901770534
+      spriteID: 412d095a97c2de630800000000000000
+      internalID: 3957868548508930580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_11
+      name: Blue_enemy_spritesheet_15
       rect:
         serializedVersion: 2
         x: 128
@@ -424,20 +508,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1fc41a644844da60800000000000000
-      internalID: 7697857121757744926
+      spriteID: f1a138d740ffe27e0800000000000000
+      internalID: -1788211607268812257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_12
+      name: Blue_enemy_spritesheet_16
       rect:
         serializedVersion: 2
         x: 0
@@ -445,20 +529,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af88e9f36a3b8cc90800000000000000
-      internalID: -7149266881837364998
+      spriteID: 04fe7a996fcb89560800000000000000
+      internalID: 7320808961616637760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_13
+      name: Blue_enemy_spritesheet_17
       rect:
         serializedVersion: 2
         x: 64
@@ -466,20 +550,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4cd4699582fff1e0800000000000000
-      internalID: -2161742640496452529
+      spriteID: de53d5061d6655180800000000000000
+      internalID: -9127276020345522707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_14
+      name: Blue_enemy_spritesheet_18
       rect:
         serializedVersion: 2
         x: 128
@@ -487,20 +571,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5628b02527b7ffb10800000000000000
-      internalID: 2017466889018245733
+      spriteID: 38f611ecb6f35ecf0800000000000000
+      internalID: -223702874233671805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_15
+      name: Blue_enemy_spritesheet_19
       rect:
         serializedVersion: 2
         x: 192
@@ -508,20 +592,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e3e38b67c6b54220800000000000000
-      internalID: 2469580938301137891
+      spriteID: 9f036e96612544ff0800000000000000
+      internalID: -52827039402151687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_16
+      name: Blue_enemy_spritesheet_20
       rect:
         serializedVersion: 2
         x: 256
@@ -529,20 +613,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 196f7eaecb8c0b7f0800000000000000
-      internalID: -598758036719798639
+      spriteID: 6e0037e94ef77b330800000000000000
+      internalID: 3726587836559982822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_17
+      name: Blue_enemy_spritesheet_21
       rect:
         serializedVersion: 2
         x: 320
@@ -550,20 +634,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e07ac65278f7f2160800000000000000
-      internalID: 7002956164009600782
+      spriteID: 6c555a931fcc55390800000000000000
+      internalID: -7830127040687417914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_IDLE2Hands
+      name: Blue_enemy_spritesheet_22
       rect:
         serializedVersion: 2
         x: 0
@@ -571,20 +655,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bde30b41fc10aa120800000000000000
-      internalID: 2425753338209386203
+      spriteID: d471554d7f18d23c0800000000000000
+      internalID: -4382703960942373043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_19
+      name: Blue_enemy_spritesheet_23
       rect:
         serializedVersion: 2
         x: 0
@@ -592,20 +676,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f1502cd745532540800000000000000
-      internalID: 4981919379926045170
+      spriteID: 8166ab1f555d5cfc0800000000000000
+      internalID: -3475136972342008296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_20
+      name: Blue_enemy_spritesheet_24
       rect:
         serializedVersion: 2
         x: 64
@@ -613,20 +697,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba6431614ade029b0800000000000000
-      internalID: -5106820688437360981
+      spriteID: ed1049c5cd62f5ba0800000000000000
+      internalID: -6098112642548497954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_21
+      name: Blue_enemy_spritesheet_25
       rect:
         serializedVersion: 2
         x: 0
@@ -634,20 +718,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea48ef94c86488cc0800000000000000
-      internalID: -3708636724788820818
+      spriteID: 3b48ba1b3cc3efe20800000000000000
+      internalID: 3386210781026288819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_22
+      name: Blue_enemy_spritesheet_26
       rect:
         serializedVersion: 2
         x: 64
@@ -655,20 +739,20 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27ca6fa9b96105b90800000000000000
-      internalID: -7255274142118269838
+      spriteID: ff43430599c365c60800000000000000
+      internalID: 7806493633266595071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: animations_skeleton_purple_23
+      name: Blue_enemy_spritesheet_27
       rect:
         serializedVersion: 2
         x: 128
@@ -676,14 +760,14 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 632ff12230badde70800000000000000
-      internalID: 9141650848577745462
+      spriteID: 53077aed78d143620800000000000000
+      internalID: 2752857741623521333
       vertices: []
       indices: 
       edges: []

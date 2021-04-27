@@ -59,28 +59,64 @@ public class Sc_UI_Healthbar : MonoBehaviour
                                     tick7.enabled = true;
                                     if (hp > 7) {
                                         tick8.enabled = true;
-                                    } else {
+                                    } else
+                                    {
                                         tick8.enabled = false;
                                     }
-                                } else {
+                                } else
+                                {
+                                    tick8.enabled = false;
                                     tick7.enabled = false;
                                 }
-                            } else {
+                            } else
+                            {
+                                tick8.enabled = false;
+                                tick7.enabled = false;
                                 tick6.enabled = false;
                             }
-                        } else {
+                        } else
+                        {
+                            tick8.enabled = false;
+                            tick7.enabled = false;
+                            tick6.enabled = false;
                             tick5.enabled = false;
                         }
-                    } else {
+                    } else
+                    {
+                        tick8.enabled = false;
+                        tick7.enabled = false;
+                        tick6.enabled = false;
+                        tick5.enabled = false;
                         tick4.enabled = false;
                     }
-                } else {
+                } else
+                {
+                    tick8.enabled = false;
+                    tick7.enabled = false;
+                    tick6.enabled = false;
+                    tick5.enabled = false;
+                    tick4.enabled = false;
                     tick3.enabled = false;
                 }
-            } else { 
-                tick2.enabled = false; 
+            } else
+            {
+                tick8.enabled = false;
+                tick7.enabled = false;
+                tick6.enabled = false;
+                tick5.enabled = false;
+                tick4.enabled = false;
+                tick3.enabled = false;
+                tick2.enabled = false;
             }
-        } else {
+        } else
+        {
+            tick8.enabled = false;
+            tick7.enabled = false;
+            tick6.enabled = false;
+            tick5.enabled = false;
+            tick4.enabled = false;
+            tick3.enabled = false;
+            tick2.enabled = false;
             tick1.enabled = false;
         }
 
