@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class Sc_PlayerController : MonoBehaviour
 {
+ 
     private Sc_DialogueTrigger cutsceneDialogue;
     private Sc_PlayerInputs inputManager;
     private Sc_PlayerStats playerStats;

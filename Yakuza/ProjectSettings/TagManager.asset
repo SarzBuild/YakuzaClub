@@ -48,3 +48,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: ui1
+    uniqueID: 1748402335
+    locked: 0
+  - name: ui2
+    uniqueID: 3712721989
+    locked: 0
