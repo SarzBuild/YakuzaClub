@@ -19,7 +19,6 @@ public class Sc_GoToCoverNode : Sc_Node
         Transform coverPoint = ai.GetBestCoverPoint();
         if (coverPoint == null)
             return NodeState.FAILURE;
-        ai.SetColor(Color.blue);
         float distance = Vector3.Distance(coverPoint.position, agent.transform.position);
         if (distance > 0.2f)
         {

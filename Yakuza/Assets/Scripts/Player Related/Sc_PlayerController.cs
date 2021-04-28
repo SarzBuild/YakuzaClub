@@ -7,7 +7,6 @@ using UnityEngine.UI;
 
 public class Sc_PlayerController : MonoBehaviour
 {
- 
     private Sc_DialogueTrigger cutsceneDialogue;
     private Sc_PlayerInputs inputManager;
     private Sc_PlayerStats playerStats;
@@ -32,6 +31,7 @@ public class Sc_PlayerController : MonoBehaviour
     public GameObject bloodSplat4;
     public GameObject bloodSplat5;
     public GameObject cutsceneTriggerBox;
+    public static bool isDead;
 
     public event EventHandler<ShootingEventArgs> Shooting;
 
@@ -71,6 +71,7 @@ public class Sc_PlayerController : MonoBehaviour
                     cursorShooting = false;
                 }
             }
+            IsDead();
         }
     }
 
@@ -189,6 +190,14 @@ public class Sc_PlayerController : MonoBehaviour
             case 4:
                 Instantiate(bloodSplat5, new Vector3(transform.position.x, transform.position.y, -2), Quaternion.identity);
                 break;
+        }
+    }
+
+    void IsDead()
+    {
+        if (playerStats.currentHealth <= 0)
+        {
+            isDead = true;
         }
     }
     

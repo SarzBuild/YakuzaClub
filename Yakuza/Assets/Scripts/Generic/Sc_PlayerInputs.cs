@@ -30,6 +30,7 @@ public class Sc_PlayerInputs : MonoBehaviour
             _instance = this;
         }
         //Cursor.visible = false;
+        Time.timeScale = 1;
     }
 
     public bool GetMovingUp()

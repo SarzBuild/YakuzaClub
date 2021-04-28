@@ -33,7 +33,7 @@ public class Sc_PlayerShooting : MonoBehaviour
         float distance = Vector3.Distance(fromPosition, targetPosition);
         Vector3 tracerSpawnPosition = fromPosition + dir * distance * .5f;
         Material tempWeaponMaterial = new Material(weaponTracerMaterial);
-        tempWeaponMaterial.SetTextureScale("_MainTex", new Vector2( 1f, distance / 75));
+        tempWeaponMaterial.SetTextureScale("_MainTex", new Vector2( 1f, distance / 8));
         Sc_WorldMesh.World_Mesh worldMesh = Sc_WorldMesh.World_Mesh.Create(tracerSpawnPosition, eulerZ, 1f, distance, tempWeaponMaterial, null, 10000);
 
         int frame = 0;

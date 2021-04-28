@@ -23,7 +23,6 @@ public class Sc_ChaseNode : Sc_Node
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         ai.transform.eulerAngles = new Vector3(0, 0, angle);
         
-        ai.SetColor(Color.yellow);
         float distance = Vector3.Distance(target.position, agent.transform.position);
         if (distance > 0.2f)
         {

@@ -4,7 +4,7 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -8928014210586895899
-    second: lobby_floor
+    second: hotel_sprites2-sheet_0
   - first:
       213: 8798419294707532951
     second: hotel_sprites2-sheet_1
@@ -25,31 +25,31 @@ TextureImporter:
     second: hotel_sprites2-sheet_6
   - first:
       213: -9031708980135860709
-    second: lobby_dragon_emblem
+    second: hotel_sprites2-sheet_7
   - first:
       213: 3752237182000552139
-    second: lobby_column
+    second: hotel_sprites2-sheet_8
   - first:
       213: 1728005708366583879
-    second: lobby_sofa
+    second: hotel_sprites2-sheet_9
   - first:
       213: 8419541547481723348
-    second: lobby_armchair
+    second: hotel_sprites2-sheet_10
   - first:
       213: -5722329841724630029
-    second: lobby_table
+    second: hotel_sprites2-sheet_11
   - first:
       213: 3822165753183417953
-    second: plantA
+    second: hotel_sprites2-sheet_12
   - first:
       213: -3114868273178419050
-    second: plantB
+    second: hotel_sprites2-sheet_13
   - first:
       213: 5549821561419605648
-    second: welcome_carpet
+    second: hotel_sprites2-sheet_14
   - first:
       213: 8942201700821998917
-    second: 9
+    second: hotel_sprites2-sheet_15
   - first:
       213: 6069267464235491738
     second: hotel_sprites2-sheet_16
@@ -70,34 +70,34 @@ TextureImporter:
     second: hotel_sprites2-sheet_21
   - first:
       213: 6837959717429266614
-    second: 10
+    second: hotel_sprites2-sheet_22
   - first:
       213: 865601448681767367
-    second: 11
+    second: hotel_sprites2-sheet_23
   - first:
       213: -4388949663202797045
-    second: 12
+    second: hotel_sprites2-sheet_24
   - first:
       213: -7413907790902202240
-    second: 13
+    second: hotel_sprites2-sheet_25
   - first:
       213: -6179418302329964723
-    second: 14
+    second: hotel_sprites2-sheet_26
   - first:
       213: 2058115863554217003
-    second: 15
+    second: hotel_sprites2-sheet_27
   - first:
       213: 3555227128363862899
-    second: 16
+    second: hotel_sprites2-sheet_28
   - first:
       213: 7861582978160741492
-    second: 17
+    second: hotel_sprites2-sheet_29
   - first:
       213: -4045037142767602268
-    second: 18
+    second: hotel_sprites2-sheet_30
   - first:
       213: -4368170904903347425
-    second: background_void
+    second: hotel_sprites2-sheet_31
   - first:
       213: -3518530116536342289
     second: hotel_sprites2-sheet_32
@@ -172,7 +172,7 @@ TextureImporter:
     second: hotel_sprites2-sheet_55
   - first:
       213: 6193042686162657753
-    second: lobby_desk_side
+    second: hotel_sprites2-sheet_56
   - first:
       213: 4425779413860521425
     second: hotel_sprites2-sheet_57
@@ -202,19 +202,19 @@ TextureImporter:
     second: hotel_sprites2-sheet_65
   - first:
       213: 3765373258031153227
-    second: lobby_desk_end
+    second: hotel_sprites2-sheet_66
   - first:
       213: -5628505185083602903
-    second: lobby_desk_middle
+    second: hotel_sprites2-sheet_67
   - first:
       213: -3597214309915118038
-    second: lobby_desk_corner
+    second: hotel_sprites2-sheet_68
   - first:
       213: -5142448493200658644
-    second: lobby_bell
+    second: hotel_sprites2-sheet_69
   - first:
       213: 8016727696665077999
-    second: lobby_label
+    second: hotel_sprites2-sheet_70
   - first:
       213: -6279685203843472179
     second: hotel_sprites2-sheet_71
@@ -271,10 +271,10 @@ TextureImporter:
     second: hotel_sprites2-sheet_88
   - first:
       213: -2937591167040554273
-    second: lobby_column1
+    second: hotel_sprites2-sheet_89
   - first:
       213: -8188151431868134914
-    second: lobby_column2
+    second: hotel_sprites2-sheet_90
   - first:
       213: 1048441783441927520
     second: hotel_sprites2-sheet_91
@@ -301,13 +301,13 @@ TextureImporter:
     second: hotel_sprites2-sheet_98
   - first:
       213: -6757674634392763900
-    second: last
+    second: DragonSign
   - first:
       213: 4091829533418422151
-    second: lobby_column3
+    second: hotel_sprites2-sheet_100
   - first:
       213: -5848924046867114036
-    second: lobby_column4
+    second: Pillar
   - first:
       213: 3867960810427438812
     second: hotel_sprites2-sheet_102
@@ -346,7 +346,7 @@ TextureImporter:
     second: hotel_sprites2-sheet_113
   - first:
       213: -722555270918035099
-    second: plantC
+    second: hotel_sprites2-sheet_114
   - first:
       213: 3040326459270203991
     second: hotel_sprites2-sheet_115
@@ -385,7 +385,7 @@ TextureImporter:
     second: hotel_sprites2-sheet_126
   - first:
       213: 1549976655043999174
-    second: plantD
+    second: hotel_sprites2-sheet_127
   - first:
       213: -984343243218962737
     second: hotel_sprites2-sheet_128
@@ -400,7 +400,7 @@ TextureImporter:
     second: hotel_sprites2-sheet_131
   - first:
       213: 5492226164242410258
-    second: hotel_sprites2-sheet_132
+    second: Green_Couch
   - first:
       213: -6821844449127872650
     second: hotel_sprites2-sheet_133
@@ -409,46 +409,46 @@ TextureImporter:
     second: hotel_sprites2-sheet_134
   - first:
       213: 1327081083372363162
-    second: hotel_sprites2-sheet_135
+    second: Green_Seat
   - first:
       213: -5229639349096806100
-    second: bookA
+    second: hotel_sprites2-sheet_136
   - first:
       213: 4908769917114843429
-    second: bookB
+    second: hotel_sprites2-sheet_137
   - first:
       213: -5100876690091657272
-    second: lobby_papers1
+    second: hotel_sprites2-sheet_138
   - first:
       213: -3246748521185581411
-    second: lobby_papers2
+    second: hotel_sprites2-sheet_139
   - first:
       213: 6336503579034725637
-    second: lobby_table_1
+    second: hotel_sprites2-sheet_140
   - first:
       213: 4066288177448395175
-    second: lobby_table_2
+    second: hotel_sprites2-sheet_141
   - first:
       213: 596878396727923737
-    second: lobby_table_3
+    second: hotel_sprites2-sheet_142
   - first:
       213: 4344726794057369154
-    second: lobby_glass1
+    second: hotel_sprites2-sheet_143
   - first:
       213: -4339314896501173006
-    second: lobby_glass2
+    second: hotel_sprites2-sheet_144
   - first:
       213: 6668741815918045904
-    second: lobby_papers3
+    second: LargePileOfPaper
   - first:
       213: 1224554678424887220
-    second: lobby_table_4
+    second: hotel_sprites2-sheet_146
   - first:
       213: 5487929884040768681
-    second: lobby_table_5
+    second: hotel_sprites2-sheet_147
   - first:
       213: -3726549752900392183
-    second: lobby_table_6
+    second: Large_Table
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -536,15 +536,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lobby_floor
+      name: hotel_sprites2-sheet_0
       rect:
         serializedVersion: 2
         x: 16
         y: 448
         width: 16
         height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -557,36 +557,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_dragon_emblem
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 336
-        width: 144
-        height: 128
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b16eb4cd88ce8a280800000000000000
-      internalID: -9031708980135860709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: background_void
+      name: hotel_sprites2-sheet_31
       rect:
         serializedVersion: 2
         x: 320
         y: 432
         width: 16
         height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -599,15 +578,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_desk_side
+      name: hotel_sprites2-sheet_56
       rect:
         serializedVersion: 2
         x: 32
         y: 384
         width: 16
         height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -620,15 +599,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_desk_end
+      name: hotel_sprites2-sheet_66
       rect:
         serializedVersion: 2
         x: 0
         y: 368
         width: 16
         height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -641,15 +620,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_desk_middle
+      name: hotel_sprites2-sheet_67
       rect:
         serializedVersion: 2
         x: 16
         y: 368
         width: 16
         height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -662,15 +641,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_desk_corner
+      name: hotel_sprites2-sheet_68
       rect:
         serializedVersion: 2
         x: 32
         y: 368
         width: 16
         height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -683,7 +662,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_bell
+      name: hotel_sprites2-sheet_69
       rect:
         serializedVersion: 2
         x: 64
@@ -704,7 +683,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_label
+      name: hotel_sprites2-sheet_70
       rect:
         serializedVersion: 2
         x: 80
@@ -725,7 +704,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plantC
+      name: hotel_sprites2-sheet_114
       rect:
         serializedVersion: 2
         x: 80
@@ -746,7 +725,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plantD
+      name: hotel_sprites2-sheet_127
       rect:
         serializedVersion: 2
         x: 80
@@ -767,7 +746,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bookA
+      name: hotel_sprites2-sheet_136
       rect:
         serializedVersion: 2
         x: 32
@@ -788,7 +767,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bookB
+      name: hotel_sprites2-sheet_137
       rect:
         serializedVersion: 2
         x: 48
@@ -809,7 +788,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_papers1
+      name: hotel_sprites2-sheet_138
       rect:
         serializedVersion: 2
         x: 64
@@ -830,7 +809,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_papers2
+      name: hotel_sprites2-sheet_139
       rect:
         serializedVersion: 2
         x: 80
@@ -851,7 +830,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_glass1
+      name: hotel_sprites2-sheet_143
       rect:
         serializedVersion: 2
         x: 32
@@ -872,7 +851,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_glass2
+      name: hotel_sprites2-sheet_144
       rect:
         serializedVersion: 2
         x: 48
@@ -893,7 +872,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_papers3
+      name: LargePileOfPaper
       rect:
         serializedVersion: 2
         x: 64
@@ -914,28 +893,595 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_column
+      name: hotel_sprites2-sheet_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 320
-        width: 32
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        x: 48
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc8d72a36df921430800000000000000
-      internalID: 3752237182000552139
+      spriteID: 7944cf58bb34a1a70800000000000000
+      internalID: 8798419294707532951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_sofa
+      name: hotel_sprites2-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fce7c0362b219400800000000000000
+      internalID: 329091690801917173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16d493cd6e022e20800000000000000
+      internalID: 3324235339548382748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15782ee611a798a0800000000000000
+      internalID: -6298388433997368033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858a72ebb99e9c4d0800000000000000
+      internalID: -3113700812230514600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9415cbe64a56c90800000000000000
+      internalID: -7177149635632215586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91a7943a9e5a3450800000000000000
+      internalID: 6069267464235491738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740570f55adf6dfb0800000000000000
+      internalID: -4623229080743489465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc175e40fa47d6d0800000000000000
+      internalID: -2965819433633243937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fa0623b1a5acad0800000000000000
+      internalID: -2681231555289895125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6241d1895b65640800000000000000
+      internalID: 5068438095579588334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08703e5cf5716b950800000000000000
+      internalID: 6464380015246247808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe86650408bab2fc0800000000000000
+      internalID: -3518530116536342289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ade8f3980644010800000000000000
+      internalID: 1172167945616284246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f3e5d3875ebeaf0800000000000000
+      internalID: -365946640112140490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46d58a50d8c9c1e0800000000000000
+      internalID: -2176988147659450801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bf11eecc76256c0800000000000000
+      internalID: -4156145376244401296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d53f911bdc20400800000000000000
+      internalID: 289019486633418040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSign
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 144
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4020a5549bae732a0800000000000000
+      internalID: -6757674634392763900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pillar
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 320
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7de3c719274dea0800000000000000
+      internalID: -5848924046867114036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_110
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0a850651a8c1300800000000000000
+      internalID: 224205905877049561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_111
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37ef906f44c30090800000000000000
+      internalID: -8069390262115244228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_112
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc7ed8f3cac46560800000000000000
+      internalID: 7306187438544551092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58657a32f1ca3ee00800000000000000
+      internalID: 1072890385986442885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_123
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019fa0928bf5aed20800000000000000
+      internalID: 3308562120824256784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_124
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb47bb8137f4cdbf0800000000000000
+      internalID: -298276119558523717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_125
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5f180bf65bbea40800000000000000
+      internalID: 5398608069640975810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hotel_sprites2-sheet_126
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afb6004af990b2b0800000000000000
+      internalID: -5570783438962245728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Couch
       rect:
         serializedVersion: 2
         x: 112
@@ -949,17 +1495,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7489901590c1bf710800000000000000
-      internalID: 1728005708366583879
+      spriteID: 21b66c9e89e483c40800000000000000
+      internalID: 5492226164242410258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_armchair
+      name: Green_Seat
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 272
         width: 48
         height: 48
@@ -970,14 +1516,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d17a45cd6838d470800000000000000
-      internalID: 8419541547481723348
+      spriteID: a9ddc82d63dba6210800000000000000
+      internalID: 1327081083372363162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lobby_table
+      name: Large_Table
       rect:
         serializedVersion: 2
         x: 112
@@ -985,77 +1531,14 @@ TextureImporter:
         width: 48
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fbd260c3533690b0800000000000000
-      internalID: -5722329841724630029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: plantA
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 272
-        width: 32
-        height: 32
-      alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1663927708f0b0530800000000000000
-      internalID: 3822165753183417953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: plantB
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 272
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 690e01f0fc3c5c4d0800000000000000
-      internalID: -3114868273178419050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: welcome_carpet
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 416
-        width: 96
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 096283f4e4de40d40800000000000000
-      internalID: 5549821561419605648
+      spriteID: 90b6d8c6eb2a84cc0800000000000000
+      internalID: -3726549752900392183
       vertices: []
       indices: 
       edges: []

@@ -53,6 +53,7 @@ public class Sc_EnemyAI1 : MonoBehaviour
         agent = this.GetComponent<NavMeshAgent>();
         _material = GetComponent<SpriteRenderer>().material;
         rb2d = GetComponent<Rigidbody2D>();
+        playerTransform = GameObject.FindWithTag("Player");
     }
     void Start()
     {
@@ -91,7 +92,7 @@ public class Sc_EnemyAI1 : MonoBehaviour
             topNode.Evaluate();
             if (topNode.nodeState == NodeState.FAILURE)
             {
-                SetColor(Color.red);
+                Debug.Log("Bruh");
             }
 
             currentHealth += Time.deltaTime * healthRestoreRate;
@@ -103,7 +104,7 @@ public class Sc_EnemyAI1 : MonoBehaviour
         }
         else
         {
-            rb2d.velocity = Vector2.zero;
+            agent.SetDestination(transform.position);
         }
     }
 

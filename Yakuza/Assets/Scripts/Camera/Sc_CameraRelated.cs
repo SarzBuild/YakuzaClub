@@ -79,5 +79,10 @@ public class Sc_CameraRelated : MonoBehaviour
                 channelPerlin.m_AmplitudeGain = 0f;
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            FadeOut(1f, false);
+        }
     }
 }
